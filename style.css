@@ -136,9 +136,23 @@ h1, h2, h3 {
 
     }
 }
+.btn-primary {
+    margin-top: 1em;
+    background-color: #05549F;
+    border: none;
+    padding: 0 1em 0 1em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #05549F;
+}
 .terminos {
     text-align: center;
     padding-top: 1.5em;
+    
+    
 }
 
 
