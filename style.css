@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(/fonts/Oswald-Regular.ttf);
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald';
+}
+
+.main {
+    height: 100vh;
+    background-image: url(/img/viewport.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} @media (max-width:835px) {
+    .main {
+        background-color: #007BFF;
+        background-image: none;
+    }
+}
+.logos {
+    display: none;
+} @media (max-width:500px) {
+    .logos {
+        padding-bottom: 1em;
+        text-align: center;
+        display: block;
+    }
+    .logos-resp {
+        width: 300px;
+    }
+    
+}
+.aire {
+    padding-top: 1em;
+}
+.card {
+    border: none;
+    border-radius: 70px;
+    max-width: 480px;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgba(66, 66, 66, 0.186);
+}
+.header{
+    background: rgb(0,123,255);
+    background: -moz-linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
+    background: linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#007bff",endColorstr="#10075e",GradientType=1);
+    display: flex;
+    justify-content: center;
+    padding: 1.2em;
+    height: 160px;
+    border-radius: 68px 68px 0 0;
+} @media (max-width: 500px) {
+    .header {
+        height: auto;
+    }
+}
+.header-desk {
+    display: block;
+    width: 500px;
+} @media (max-width: 500px) {
+    .header-desk {
+        display: none;
+    }
+}
+.header-resp {
+    display: none;
+}@media (max-width: 500px) {
+    .header-resp {
+        display: block;
+        width: 200px;
+    }
+}
+.info__cuerpo {
+    padding: 0 4em 2em 4em;
+}  @media (max-width:500px) {
+    .info__cuerpo {
+        font-size: 13px;
+        padding: 0 3em 2em 3em;
+    }
+    
+}
+
+.info__cuerpo h1, .info__cuerpo h2 {
+    text-align: center;
+    color: #05549F;
+    padding-top: .3em;
+    padding-bottom: .2em;
+}
+
+.info__cuerpo-instruccion{
+    color: #05549F;
+    font-weight: 700;
+}
+
+.check {
+    width: 19px;
+} @media (max-width:500px) {
+    .check {
+        display: none;
+     }
+}
+
+.header-terminos {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+} 
+.header-terminos img {
+    width: 100px;
+}
+.header-terminos h2 {
+    color: #05549F;
+    padding-left: 1em;
+} @media (max-width:500px) {
+    .header-terminos h2 {
+        padding-left: .5em;
+    }
+}
+.info__cuerpo-terminos {
+    width: 350px;
+    height: 245px;
+    text-align: justify;
+    font-size: .8em;
+    overflow: auto;
+    margin-bottom: 2em;
+} @media (max-width: 500px) {
+    .info__cuerpo-terminos {
+        width: 280px;
+
+    }
+}
+.terminos {
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+
