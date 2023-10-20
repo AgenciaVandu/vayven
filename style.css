@@ -31,7 +31,8 @@ h1, h2, h3 {
         display: block;
     }
     .logos-resp {
-        width: 300px;
+        margin-top: 1em;
+        width: 230px;
     }
     
 }
