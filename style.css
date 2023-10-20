@@ -47,11 +47,8 @@ h1, h2, h3 {
     box-shadow: 0px 0px 10px 0px rgba(66, 66, 66, 0.186);
 }
 .header{
-    background: rgb(0,123,255);
-    background: -moz-linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
-    background: linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(29,9,207,1) 43%, rgba(16,7,94,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#007bff",endColorstr="#10075e",GradientType=1);
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(5,108,187,1) 39%, rgba(9,9,121,1) 98%);
     display: flex;
     justify-content: center;
     padding: 1.2em;
