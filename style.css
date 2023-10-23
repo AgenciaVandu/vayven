@@ -24,18 +24,18 @@ h1, h2, h3 {
 }
 .logos {
     display: none;
-} @media (max-width:500px) {
+} /* @media (max-width:500px) {
     .logos {
         padding-bottom: 1em;
         text-align: center;
-        display: block;
+        display: none;
     }
     .logos-resp {
         margin-top: 1em;
         width: 230px;
     }
     
-}
+} */
 .aire {
     padding-top: 1em;
 }
